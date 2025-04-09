@@ -1,48 +1,106 @@
-# New Angular Project
+# Mini Ecommerce Angular
 
-This is a new Angular project created to demonstrate the basic structure and functionality of an Angular application.
+Este proyecto es una evaluación final para estudiantes del curso de Angular. Consiste en crear una aplicación base de ecommerce utilizando `localStorage` como fuente de datos.
 
-## Project Structure
+## 🌟 Objetivo
 
-The project consists of the following main directories and files:
+Demostrar el dominio de los conceptos vistos durante el curso mediante la creación de una aplicación funcional que incluya:
 
-- **src/**: Contains the source code of the application.
-  - **app/**: Contains the main application components and modules.
-    - **app.component.html**: The HTML template for the root component.
-    - **app.component.ts**: The TypeScript file for the root component.
-    - **app.module.ts**: The root module of the application.
-    - **app-routing.module.ts**: The routing module for the application.
-  - **assets/**: Directory for static assets like images and styles.
-  - **environments/**: Contains environment configuration files.
-    - **environment.ts**: Development environment configuration.
-    - **environment.prod.ts**: Production environment configuration.
-  
-- **angular.json**: Configuration file for Angular CLI.
-- **package.json**: Lists dependencies and scripts for the project.
-- **tsconfig.json**: Main TypeScript configuration file.
-- **tsconfig.app.json**: TypeScript configuration for the application code.
-- **tsconfig.spec.json**: TypeScript configuration for test files.
+- Vista de productos
+- Vista del carrito
+- Vista de checkout
+- Vista de confirmación de compra
 
-## Getting Started
+---
 
-To get started with this project, follow these steps:
+## ✅ Qué se espera que hagas
 
-1. Install the dependencies:
+1. Haz un **fork** de este repositorio:
+   [https://github.com/Inadaptados/2025-1-ecommerce](https://github.com/Inadaptados/2025-1-ecommerce)
+2. Clona tu fork:
+   ```bash
+   git clone https://github.com/<tu-usuario>/2025-1-ecommerce.git
+   cd 2025-1-ecommerce
    ```
+3. Instala las dependencias:
+   ```bash
    npm install
    ```
-
-2. Start the development server:
-   ```
+4. Inicia el proyecto:
+   ```bash
    ng serve
    ```
+5. Crea las siguientes vistas:
+   - `/productos`: Muestra una lista de productos.
+   - `/carrito`: Muestra los productos agregados.
+   - `/checkout`: Formulario para ingresar datos del comprador.
+   - `/confirmacion`: Muestra un resumen de la compra.
+6. Usa `localStorage` para almacenar:
+   - El carrito.
+   - Los datos del pedido confirmado.
+7. Sube tus cambios a tu repositorio.
+8. Entrega el link de tu repositorio.
 
-3. Open your browser and navigate to `http://localhost:4200/` to see the application in action.
+---
 
-## License
+## 📤 Publicar en GitHub Pages (opcional)
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+> Esta sección es opcional y puede realizarse con apoyo del docente.
 
-## Contact
+1. Asegúrate de que el proyecto esté compilado para producción:
+   ```bash
+   ng build --base-href "/2025-1-ecommerce/"
+   ```
+2. Instala el paquete para desplegar:
+   ```bash
+   ng add angular-cli-ghpages
+   ```
+3. Despliega el proyecto:
+   ```bash
+   npx angular-cli-ghpages --dir=dist/2025-1-ecommerce
+   ```
+4. Tu aplicación estará disponible en:
+   ```
+   https://<tu-usuario>.github.io/2025-1-ecommerce/
+   ```
 
-For any inquiries, please reach out to the project maintainers.
+---
+
+## 📊 Evaluación
+
+| Criterio                           | Peso |
+|-----------------------------------|------|
+| Data Binding                      | 25%  |
+| Directivas                        | 25%  |
+| Servicios                         | 15%  |
+| Ruteo                             | 15%  |
+| Uso de localStorage               | 20%  |
+
+> ✨ Extra (opcional): Publicación en GitHub Pages con ayuda del equipo docente.
+
+---
+
+## 📂 Estructura recomendada
+
+```
+src/
+├── app/
+│   ├── product-list/
+│   ├── cart/
+│   ├── checkout/
+│   ├── confirmation/
+│   ├── services/
+│   │   ├── cart.service.ts
+│   │   └── product.service.ts
+│   └── app-routing.module.ts
+```
+
+---
+
+## 📅 Fecha de entrega
+
+La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el docente antes de la fecha establecida en clase.
+
+---
+
+🚀 ¡Buena suerte y deja volar tu creatividad!
