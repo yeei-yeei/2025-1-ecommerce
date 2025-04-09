@@ -99,8 +99,16 @@ src/
 
 ## 📅 Fecha de entrega
 
-La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el docente antes de la fecha establecida en clase.
+La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el equipo de Inadaptados antes de la fecha establecida en clase.
 
 ---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## 📧 Contacto
+
+[Inadaptados](https://inadaptados.mx)
 
 🚀 ¡Buena suerte y deja volar tu creatividad!
