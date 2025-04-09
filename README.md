@@ -1,82 +1,48 @@
-# Mini Ecommerce Angular
+# New Angular Project
 
-Este proyecto es una evaluación final para estudiantes del curso de Angular. Consiste en crear una aplicación base de ecommerce utilizando `localStorage` como fuente de datos.
+This is a new Angular project created to demonstrate the basic structure and functionality of an Angular application.
 
-## 🌟 Objetivo
+## Project Structure
 
-Demostrar el dominio de los conceptos vistos durante el curso mediante la creación de una aplicación funcional que incluya:
+The project consists of the following main directories and files:
 
-- Vista de productos
-- Vista del carrito
-- Vista de checkout
-- Vista de confirmación de compra
+- **src/**: Contains the source code of the application.
+  - **app/**: Contains the main application components and modules.
+    - **app.component.html**: The HTML template for the root component.
+    - **app.component.ts**: The TypeScript file for the root component.
+    - **app.module.ts**: The root module of the application.
+    - **app-routing.module.ts**: The routing module for the application.
+  - **assets/**: Directory for static assets like images and styles.
+  - **environments/**: Contains environment configuration files.
+    - **environment.ts**: Development environment configuration.
+    - **environment.prod.ts**: Production environment configuration.
+  
+- **angular.json**: Configuration file for Angular CLI.
+- **package.json**: Lists dependencies and scripts for the project.
+- **tsconfig.json**: Main TypeScript configuration file.
+- **tsconfig.app.json**: TypeScript configuration for the application code.
+- **tsconfig.spec.json**: TypeScript configuration for test files.
 
----
+## Getting Started
 
-## ✅ Qué se espera que hagas
+To get started with this project, follow these steps:
 
-1. Haz un **fork** de este repositorio.
-2. Clona tu fork:
-   ```bash
-   git clone https://github.com/<tu-usuario>/mini-ecommerce-angular.git
-   cd mini-ecommerce-angular
+1. Install the dependencies:
    ```
-3. Instala las dependencias:
-   ```bash
    npm install
    ```
-4. Inicia el proyecto:
-   ```bash
+
+2. Start the development server:
+   ```
    ng serve
    ```
-5. Crea las siguientes vistas:
-   - `/productos`: Muestra una lista de productos.
-   - `/carrito`: Muestra los productos agregados.
-   - `/checkout`: Formulario para ingresar datos del comprador.
-   - `/confirmacion`: Muestra un resumen de la compra.
-6. Usa `localStorage` para almacenar:
-   - El carrito.
-   - Los datos del pedido confirmado.
-7. Sube tus cambios a tu repositorio.
-8. Entrega el link de tu repositorio.
 
----
+3. Open your browser and navigate to `http://localhost:4200/` to see the application in action.
 
-## 📊 Evaluación
+## License
 
-| Criterio                           | Peso |
-|-----------------------------------|------|
-| Data Binding                      | 25%  |
-| Directivas                        | 25%  |
-| Servicios                         | 15%  |
-| Ruteo                             | 15%  |
-| Uso de localStorage               | 20%  |
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-> ✨ Extra (opcional): Publicación en GitHub Pages con ayuda del equipo docente.
+## Contact
 
----
-
-## 📂 Estructura recomendada
-
-```
-src/
-├── app/
-│   ├── product-list/
-│   ├── cart/
-│   ├── checkout/
-│   ├── confirmation/
-│   ├── services/
-│   │   ├── cart.service.ts
-│   │   └── product.service.ts
-│   └── app-routing.module.ts
-```
-
----
-
-## 📅 Fecha de entrega
-
-La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el docente antes de la fecha establecida en clase.
-
----
-
-🚀 ¡Buena suerte y deja volar tu creatividad!
+For any inquiries, please reach out to the project maintainers.
