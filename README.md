@@ -43,7 +43,7 @@ Demostrar el dominio de los conceptos vistos durante el curso mediante la creaci
 
 ---
 
-## 📤 Publicar en GitHub Pages (opcional)
+## 📤 Publicar en GitHub Pages
 
 > Esta sección es opcional y puede realizarse con apoyo del docente.
 
@@ -68,13 +68,13 @@ Demostrar el dominio de los conceptos vistos durante el curso mediante la creaci
 
 ## 📊 Evaluación
 
-| Criterio                           | Peso |
-|-----------------------------------|------|
-| Data Binding                      | 25%  |
-| Directivas                        | 25%  |
-| Servicios                         | 15%  |
-| Ruteo                             | 15%  |
-| Uso de localStorage               | 20%  |
+| Criterio            | Peso |
+| ------------------- | ---- |
+| Data Binding        | 25%  |
+| Directivas          | 25%  |
+| Servicios           | 15%  |
+| Ruteo               | 15%  |
+| Uso de localStorage | 20%  |
 
 > ✨ Extra (opcional): Publicación en GitHub Pages con ayuda del equipo docente.
 
@@ -99,7 +99,9 @@ src/
 
 ## 📅 Fecha de entrega
 
-La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el equipo de Inadaptados antes de la fecha establecida en clase.
+La entrega del proyecto se realiza subiendo el código a GitHub y compartiendo el link con el equipo de Inadaptados antes del 23 de abril de 2025.
+
+NOTA: Asegúrate de que tu repositorio sea público y que todo el código esté en la rama `main`.
 
 ---
 
