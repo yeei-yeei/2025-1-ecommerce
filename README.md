@@ -84,14 +84,17 @@ Demostrar el dominio de los conceptos vistos durante el curso mediante la creaci
 ```
 src/
 ├── app/
-│   ├── product-list/
-│   ├── cart/
-│   ├── checkout/
-│   ├── confirmation/
+│   ├──components/
+│   │
+│   ├──pages/
+│   │   ├── product-list/
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── confirmation/
 │   ├── services/
 │   │   ├── cart.service.ts
 │   │   └── product.service.ts
-│   └── app-routes.ts
+│   └── app.routes.ts
 ```
 
 ---
