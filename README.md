@@ -75,8 +75,7 @@ Demostrar el dominio de los conceptos vistos durante el curso mediante la creaci
 | Servicios           | 15%  |
 | Ruteo               | 15%  |
 | Uso de localStorage | 20%  |
-
-> ✨ Extra (opcional): Publicación en GitHub Pages con ayuda del equipo docente.
+| **Total**           | 100% |
 
 ---
 
