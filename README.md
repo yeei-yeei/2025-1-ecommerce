@@ -92,7 +92,7 @@ src/
 │   ├── services/
 │   │   ├── cart.service.ts
 │   │   └── product.service.ts
-│   └── app-routing.module.ts
+│   └── app-routes.ts
 ```
 
 ---
